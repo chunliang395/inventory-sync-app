@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>庫存同步系統</title>
+</head>
+<body>
+    <h1>庫存同步系統 - Demo</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <!-- 下拉選單 - 選擇廠商 -->
+        <div>
+            <label for="vendor_selection">選擇廠商：</label>
+            <select name="vendor_selection" id="vendor_selection">
+                <!-- 這邊示範兩個 -->
+                <option value="Light">Light in the Attic</option>
+                <option value="Juno">JUNO</option>
+                <!-- 之後如果有更多廠商，可自行加 option -->
+            </select>
+        </div>
+        <br>
+
+        <!-- 檔案上傳：官網檔案 -->
+        <div>
+            <label for="file1">官網檔案 (Excel)：</label>
+            <input type="file" name="file1" id="file1" required>
+        </div>
+        <br>
+
+        <!-- 檔案上傳：廠商檔案 -->
+        <div>
+            <label for="file2">廠商檔案 (Excel)：</label>
+            <input type="file" name="file2" id="file2" required>
+        </div>
+        <br>
+
+        <button type="submit">開始同步</button>
+    </form>
+</body>
+</html>
