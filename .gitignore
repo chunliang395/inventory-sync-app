@@ -1,0 +1,41 @@
+# 忽略上傳的檔案和記錄檔案
+uploaded_files/
+records/
+records_lita/
+records_juno/
+
+# 忽略Python快取檔
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 忽略系統檔案
+.DS_Store
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 忽略編輯器/IDE檔案
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
